@@ -4,6 +4,7 @@ require 'sinatra'
 set :server, 'thin'
 connections = []
 
+#this could be a valid action
 get '/' do
   halt erb(:login) unless params[:user]
   erb :chat, :locals => { :user => params[:user].gsub(/\W/, '') }
