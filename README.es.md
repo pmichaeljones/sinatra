@@ -15,7 +15,7 @@ get '/' do
 end
 ```
 
-Instalar la gema y correr la aplicación con:
+Instalar la gema y correr la aplicación con el siguiente:
 
 ```shell
 gem install sinatra
